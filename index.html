@@ -2913,6 +2913,23 @@
              style="left: 0px; top: 0px; width: 0px; height: 0px;"></div>
     </div>
 </body> 
+<script>
+    window.onload = function () {
+            setTimeout(function () {
+                var myAudio = document.getElementById("audioID").play();
+                console.log(myAudio);
+                console.log("wod");
+            }, 3000);
+        };
+
+        let muteAudio = () => {
+            document.getElementById("audioID").muted = true;
+        };
+        let UnmuteAudio = () => {
+            document.getElementById("audioID").muted = false;
+        };
+
+</script>
 <script src="./js/custom.js"></script>
 
 </html>
