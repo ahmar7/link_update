@@ -2680,7 +2680,9 @@
                     <audio
                     id="audioID"
                    src="./img/music.mp3"
+                   muted
                     autoplay
+                     
                    loop  ></audio>
             <div
                  class="flex min-h-screen flex-col items-center justify-center lg:grid lg:grid-cols-[0.25fr_1fr_0.25fr]">
@@ -2915,10 +2917,11 @@
 </body> 
 <script>
     window.onload = function () {
-        document.getElementById("audioID").play()
         setTimeout(function () {
             var myAudio = document.getElementById("audioID").play();
-                console.log(myAudio);
+            console.log(myAudio);
+            document.getElementById("audioID").play()
+                document.getElementById("audioID").muted = false;
                 console.log("wod");
             }, 1000);
          
