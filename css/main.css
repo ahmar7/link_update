@@ -1,0 +1,16 @@
+@font-face {
+  font-family: __kabelFont_9a9018;
+  src: url(/_next/static/media/b9349f3e60cd9d49-s.p.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: __kabelFont_Fallback_9a9018;
+  src: local("Arial");
+  ascent-override: 65.5%;
+  descent-override: 17.73%;
+  line-gap-override: 0%;
+  size-adjust: 130.83%;
+}
+.__className_9a9018 {
+  font-family: __kabelFont_9a9018, __kabelFont_Fallback_9a9018;
+}
