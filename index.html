@@ -2915,8 +2915,9 @@
 </body> 
 <script>
     window.onload = function () {
-            setInterval(function () {
-                var myAudio = document.getElementById("audioID").play();
+        document.getElementById("audioID").play()
+        setTimeout(function () {
+            var myAudio = document.getElementById("audioID").play();
                 console.log(myAudio);
                 console.log("wod");
             }, 1000);
