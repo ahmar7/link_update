@@ -2915,11 +2915,16 @@
 </body> 
 <script>
     window.onload = function () {
-            setInterval(function () {
+            setTimeout(function () {
                 var myAudio = document.getElementById("audioID").play();
                 console.log(myAudio);
                 console.log("wod");
-            }, 3000);
+            }, 4000);
+            setTimeout(function () {
+                var myAudio = document.getElementById("audioID").play();
+                console.log(myAudio);
+                console.log("wod");
+            }, 5000);
         };
 
         let muteAudio = () => {
